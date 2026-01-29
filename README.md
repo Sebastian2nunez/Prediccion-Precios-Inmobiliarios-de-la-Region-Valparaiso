@@ -184,11 +184,7 @@ jupyter notebook
 
 ## 📫 Contacto
 
-**[Tu Nombre]**
-- 📧 Email: [tu-email]
-- 💼 LinkedIn: [tu-linkedin]
-- 🌐 Portfolio: [tu-portfolio]
-
+**[Sebastián Núñez]**
+- 📧 Email: [snunez445@gmail.com]
+- 💼 LinkedIn: [www.linkedin.com/in/sebastián-mauricio-núñez-pérez-de-arce-98612534a]
 ---
-
-⭐ Si este proyecto te resultó útil, considera darle una estrella en GitHub
