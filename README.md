@@ -166,6 +166,6 @@ Sistema automatizado que:
 ## 📫 Contacto
 
 **[Sebastián Núñez]**
-- 📧 Email: [snunez445@gmail.com]
+- 📧 Email: [sebastian.mauricio.nunez@gmail.com]
 - 💼 LinkedIn: [www.linkedin.com/in/sebastián-mauricio-núñez-pérez-de-arce-98612534a]
 ---
