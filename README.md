@@ -175,10 +175,8 @@ jupyter notebook
 
 ## 🔮 Próximos Pasos
 
-- [ ] Incorporar datos geoespaciales (distancia a metro, playa, servicios)
 - [ ] Ampliar a otras regiones (Santiago, Concepción)
 - [ ] Implementar sistema de detección de oportunidades (propiedades infravaloradas)
-- [ ] Crear API REST con FastAPI
 - [ ] Dashboard interactivo con Streamlit
 - [ ] Automatización de scraping y reentrenamiento
 
