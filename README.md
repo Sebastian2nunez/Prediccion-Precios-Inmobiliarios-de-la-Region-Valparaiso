@@ -59,36 +59,19 @@ Sistema automatizado que:
 ## 📁 Estructura del Proyecto
 
 ```
-├── notebooks/
+├── Notebooks/
 │   ├── 01_Scraping_icasas.ipynb        # Web scraping de icasas.cl
-│   ├── 02_EDA_pre_limpieza.ipynb       # Análisis exploratorio (51 celdas)
+│   ├── 02_EDA.ipynb       # Análisis exploratorio (51 celdas)
 │   ├── 03_Limpieza.ipynb               # Limpieza y transformación de datos
 │   └── 04_ML.ipynb                     # Modelado, evaluación y optimización
-├── data/
-│   ├── raw/                            # Datos scrapeados (995 propiedades)
-│   └── processed/                      # Datos limpios (961 propiedades)
-├── models/
-│   └── modelo_final_valparaiso.pkl     # Gradient Boosting optimizado
+├── Modelo/
+│   └── modelo_precio_viviendas_GB_MAE.joblib     # Gradient Boosting optimizado
+├── Documentos/
+│   ├── Scraping/                            # Datos scrapeados (995 propiedades)
+│   └── Procesado/                      # Datos limpios (961 propiedades)
+
 ├── requirements.txt
 └── README.md
-```
-
-## 🚀 Instalación y Uso
-
-```bash
-# Clonar repositorio
-git clone https://github.com/[tu-usuario]/predictor-precios-valparaiso
-cd predictor-precios-valparaiso
-
-# Crear ambiente virtual (recomendado)
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar notebooks en orden
-jupyter notebook
 ```
 
 ## 📈 Metodología
