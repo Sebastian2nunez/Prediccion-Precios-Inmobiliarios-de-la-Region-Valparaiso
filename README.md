@@ -138,8 +138,6 @@ Sistema automatizado que:
 
 **R² = 0.67** significa que el modelo explica el **67% de la variabilidad** en los precios de propiedades.
 
-**MAE = 2,696 UF** representa un error promedio de aproximadamente **$102 millones CLP** (considerando UF ≈ $38,000).
-
 **Contexto:**
 - El 33% de variabilidad no explicada corresponde a factores no capturados en el dataset (ubicación exacta, estado de conservación, vista, proximidad a servicios).
 - Para un proyecto basado en web scraping sin datos premium (GPS, fotos, tasaciones profesionales), estos resultados son sólidos.
