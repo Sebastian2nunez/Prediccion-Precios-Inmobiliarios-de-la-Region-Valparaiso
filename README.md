@@ -10,7 +10,6 @@
 
 - ✅ **961 propiedades** analizadas (Región de Valparaíso)
 - ✅ **R² = 0.67** en conjunto de prueba
-- ✅ **MAE = 2,696 UF** (error promedio absoluto)
 - ✅ **6 algoritmos** comparados (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, Gradient Boosting)
 - ✅ **Optimización de hiperparámetros** con RandomizedSearchCV (40 combinaciones)
 
@@ -94,7 +93,7 @@ Sistema automatizado que:
 - **Normalización de áreas:** Consolidación de `Area m2`, `Área útil`, `m2 terreno` en:
   - `Area Construida` (máximo entre las tres)
   - `Area Terreno` (mínimo entre las tres)
-- **Manejo de Año de Construcción:** Corrección de valores incoherentes (10-20.3 → 2010-2020.3)
+- **Manejo de Año de Construcción:** Corrección de valores incoherentes.
 - **Flags categóricos:** Creación de variables `Casa` y `Terreno` basadas en lógica de negocio
 - **Eliminación de duplicados:** Reducción de 995 → 961 propiedades únicas
 - **Limpieza de amenities:** Conversión de columnas binarias (True/False)
