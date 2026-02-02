@@ -149,7 +149,7 @@ Sistema automatizado que:
 
 3. **Gradient Boosting vs Random Forest:** GB superó a RF en este dataset, probablemente por la capacidad de GB de corregir errores iterativamente.
 
-4. **Hyperparameter tuning:** La optimización mejoró el R² de 0.46 (baseline) a 0.67 (optimizado), un incremento del 46%.
+4. **Hyperparameter tuning:** La optimización mejoró el R² de 0.46 (baseline) a 0.67 (optimizado).
 
 5. **Feature engineering específico del dominio:** Variables como `Casa`/`Terreno` basadas en lógica inmobiliaria mejoraron el modelo.
 
