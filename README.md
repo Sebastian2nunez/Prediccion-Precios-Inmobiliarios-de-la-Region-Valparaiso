@@ -115,7 +115,7 @@ Sistema automatizado que:
 | Lasso | 0.46 | 0.51 | 3418 |
 | Random Forest | 0.58 | 0.64 | 2786 |
 | XGBoost | 0.52 | 0.61 | 2856 |
-| **Gradient Boosting** | **0.62** | **0.66** | **2696** |
+| **Gradient Boosting** | **0.62** | **0.67** | **2696** |
 
 **Modelo Final: Gradient Boosting Optimizado**
 - Hiperparámetros optimizados con RandomizedSearchCV
