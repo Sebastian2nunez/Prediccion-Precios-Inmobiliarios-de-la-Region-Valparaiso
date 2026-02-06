@@ -1,4 +1,4 @@
-# 🏠 Predictor de Precios Inmobiliarios - Región Valparaíso
+# Predictor de Precios Inmobiliarios - Región Valparaíso
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![ML](https://img.shields.io/badge/ML-Gradient%20Boosting-green.svg)
@@ -6,14 +6,14 @@
 
 > Sistema end-to-end de Machine Learning que predice precios de propiedades inmobiliarias utilizando Gradient Boosting, alcanzando R² = 0.67 en datos reales de la Región de Valparaíso.
 
-## 📊 Resultados Clave
+## Resultados Clave
 
-- ✅ **961 propiedades** analizadas (Región de Valparaíso)
-- ✅ **R² = 0.67** en conjunto de prueba
-- ✅ **6 algoritmos** comparados (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, Gradient Boosting)
-- ✅ **Optimización de hiperparámetros** con RandomizedSearchCV (40 combinaciones)
+- **961 propiedades** analizadas (Región de Valparaíso)
+- **R² = 0.67** en conjunto de prueba
+- **6 algoritmos** comparados (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, Gradient Boosting)
+- **Optimización de hiperparámetros** con RandomizedSearchCV (40 combinaciones)
 
-## 🎯 Problema & Solución
+## Problema & Solución
 
 **Problema:**  
 El mercado inmobiliario de la Región de Valparaíso carece de herramientas de valoración objetiva, dificultando a compradores e inversionistas identificar oportunidades.
@@ -26,7 +26,7 @@ Sistema automatizado que:
 4. Entrena y compara múltiples modelos de Machine Learning
 5. Predice valores de mercado con precisión del 67%
 
-## 🛠️ Stack Técnico
+## Stack Técnico
 
 **Data Collection:**
 - Python 3.9+
@@ -55,7 +55,7 @@ Sistema automatizado que:
 - Git
 - Joblib
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 ├── Notebooks/
@@ -73,7 +73,7 @@ Sistema automatizado que:
 └── README.md
 ```
 
-## 📈 Metodología
+## Metodología
 
 ### 1. Recolección de Datos (Web Scraping)
 - Fuente: [icasas.cl](https://www.icasas.cl)
@@ -133,7 +133,7 @@ Sistema automatizado que:
 - Split estratificado train/test (80/20)
 - Test R² = 0.67 (modelo generaliza correctamente)
 
-## 📊 Interpretación de Resultados
+## Interpretación de Resultados
 
 **R² = 0.67** significa que el modelo explica el **67% de la variabilidad** en los precios de propiedades.
 
@@ -153,14 +153,14 @@ Sistema automatizado que:
 
 5. **Feature engineering específico del dominio:** Variables como `Casa`/`Terreno` basadas en lógica inmobiliaria mejoraron el modelo.
 
-## 🔮 Próximos Pasos
+## Próximos Pasos
 
 - [ ] Ampliar a otras regiones (Santiago, Concepción)
 - [ ] Implementar sistema de detección de oportunidades (propiedades infravaloradas)
 - [ ] Dashboard interactivo con Streamlit
 - [ ] Automatización de scraping y reentrenamiento
 
-## 📫 Contacto
+## Contacto
 
 **[Sebastián Núñez]**
 - 📧 Email: [sebastian.mauricio.nunez@gmail.com]
